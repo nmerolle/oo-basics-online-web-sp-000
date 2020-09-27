@@ -9,7 +9,7 @@ class Shoe
   end
   
   def cobbler
-    puts "says that the shoe has been repaired"
-    shoe.condition = "new"
+    puts "Your shoe is as good as new!"
+    self.condition = "new"
   end
 end
