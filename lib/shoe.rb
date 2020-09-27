@@ -10,5 +10,6 @@ class Shoe
   
   def cobbler
     puts "Your shoe is as good as new!"
+    shoe.condition = "new"
   end
 end
